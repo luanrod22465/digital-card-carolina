@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'gilda-display'; /* Substitua por um nome fácil de lembrar */
+    src: url('/static/fonts/Gilda_Display/GildaDisplay-Regular.ttf') format('truetype'),
+    
+}
+
+body {
+    /* Define o gradiente como fundo */
+    background: linear-gradient(to bottom, #b062ff, #c386ff, #ff88a2);
+    /* Faz o fundo ficar fixo */
+    background-attachment: fixed;
+    /* Garante que o fundo cubra toda a área */
+    background-size: cover;
+    /* Define a altura mínima do corpo */
+    min-height: 100vh;
+    /* Remove margens padrão do body */
+    margin: 0;
+}
+
+.card {
+    border-radius: 35px;
+    color: aliceblue;
+    background-color: #7141a2;
+    font-size: x-small;
+}
+
+.btn-save-agenda {
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.btn-see-more {
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.btn-save-agenda, .btn-see-more {
+    background-color: #7141a2;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    line-height: 8px;
+}
+
+.card-profile, .card-servico, .btn {
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.card-servico, .card-profile {
+    border: none;
+    font-weight: 200;
+}
+
+.btn {
+    font-weight: 300;
+}
+
+.card-profile .profession-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-profile .card-profile-name {
+    color: #222222;
+    /*font-family: 'gilda-display';*/
+    font-size: 18px;
+}
+
+.card-profile .crefito, .card-profile .profession-title{
+    color: #3f3f3f;
+}
+
+.card-profile .card-descricao {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card-profile .crefito {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.card-profile p {
+    margin: 6px;
+}
+
+.img-profile {
+    height: 66px;
+    width: 66px;
+    border: 3px solid #c2c0c0;
+}
+
+.card-servico .card-title {
+    font-size: 17px;
+}
+
+.card-servico .card-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card .card-img-bottom {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+
+/*botões principais*/
+.btn-custom {
+    background-color: #7141a2;
+    color: white;
+    border-radius: 25px; /* Cantos arredondados */
+    margin-bottom: 10px; /* Margem entre os botões */
+}
+.btn-custom i {
+    margin-right: 5px; /* Espaço entre o ícone e o texto */
+}
+
+
+/*card capa e foto*/
+
+.card-profile {
+    background-color: #ffffff;
+}
+
+.card-profile .card-img-top {
+    height: 150px; /* Altura da capa */
+    object-fit: cover; /* Cobrir todo o espaço */
+    border-radius: inherit;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.card-profile .profile-pic {
+    width: 100px; /* Largura da foto de perfil */
+    height: 100px; /* Altura da foto de perfil */
+    border-radius: 50%; /* Deixar a foto redonda */
+    border: 5px solid white; /* Borda branca */
+    margin-top: -50px; /* Posicionar no meio da capa e do conteúdo */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.card-profile .card-body {
+    padding: 20px;
+    text-align: center;
+}
+.card-profile .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+

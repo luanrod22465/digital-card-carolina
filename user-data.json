@@ -1,0 +1,61 @@
+{
+    "perfil": {
+        "path_perfil_img": "caminho_para_a_imagem",
+        "nome": "Dr. Carolina",
+        "sobrenome": "Aguiar",
+        "profissao": "Fisioterapeuta",
+        "crefito": "3 / 350229-F",
+        "bio": "Biografia da profissional",
+        "descricao_profissional": "Fisioterapeuta especializada em bem-estar e estética, oferecendo atendimentos personalizados para promover saúde, relaxamento e qualidade de vida.",
+        "contato": "+55 12 97814-2409",
+        "links": [
+            {
+                "url": "https://www.instagram.com/fisiocarolinaaguiar/?igsh=cTdvZWlha21wenl5#",
+                "icone": "fab fa-instagram",
+                "title": "Meu Instagram"
+            },
+            {
+                "url": "https://link_para_agendamento",
+                "icone": "fas fa-calendar-alt",
+                "title": "Agendar Consulta"
+            },
+            {
+                "url": "https://wa.me/5512978142409",
+                "icone": "fab fa-whatsapp",
+                "title": "Meu WhatsApp"
+            },
+            {
+                "url": "fisiocarolinaaguiar@gmail.com",
+                "icone": "fas fa-envelope",
+                "title": "Enviar E-mail"
+            },
+            {
+                "url": "https://maps.google.com",
+                "icone": "fas fa-map-marker-alt",
+                "title": "Encontre meu Consultório"
+            }
+        ]
+
+    },
+    "servicos": [
+        {
+            "titulo": "Drenagem Linfática",
+            "imagem": "/static/img/drenagem-linfatica.jpeg",
+            "descricao": "Massagem que estimula o sistema linfático, auxiliando na eliminação de toxinas e líquidos em excesso. Com movimentos suaves e ritmados, melhora a circulação, absorção de nutrientes e desintoxicação. Indicada para retenção de líquidos, pós-cirúrgico e tratamentos estéticos.",
+            "link": "Ver mais"
+        },
+        {
+            "titulo": "Massagem Relaxante",
+            "imagem": "/static/img/massagem-relaxante.jpeg",
+            "descricao": "Massagem suave que alivia o estresse, melhora a circulação e proporciona relaxamento profundo. Com movimentos lentos e fluidos, reduz tensões e melhora a qualidade do sono, sendo ideal para quem busca bem-estar e descanso.",
+            "link": "Ver mais"
+        },
+        {
+            "titulo": "Limpeza de Pele",
+            "imagem": "/static/img/limpeza-de-pele.jpeg",
+            "descricao": "Limpeza profunda que remove impurezas, oleosidade, células mortas e cravos, revitalizando a pele. Com etapas específicas, previne acne, melhora a textura e promove renovação celular para um aspecto saudável.",
+            "link": "Ver mais"
+        }
+        
+    ]
+}
